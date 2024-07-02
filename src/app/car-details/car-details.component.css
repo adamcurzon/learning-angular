@@ -1,0 +1,21 @@
+.car-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.car-contact-form input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: var(--main);
+}
+
+.car-contact-form button {
+  color: white;
+  background-color: var(--main);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
