@@ -1,0 +1,21 @@
+.snackbar {
+  width: calc(100% - 50px);
+  position: fixed;
+  bottom: -100px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0;
+}
+
+.snackbar.active {
+  bottom: 0px;
+  opacity: 1;
+  transition: bottom 0.5s ease, opacity 0.5s ease;
+}
