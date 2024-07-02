@@ -1,0 +1,24 @@
+.car-listing {
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.car-listing-name {
+  padding: 0px;
+  margin: 0px;
+  color: var(--main);
+}
+
+.car-listing-description {
+  padding: 0px;
+  margin: 0px;
+}
+.car-listing-read-more {
+  color: var(--main);
+  text-decoration: none;
+}
