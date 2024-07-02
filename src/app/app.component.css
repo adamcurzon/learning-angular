@@ -1,0 +1,12 @@
+nav {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--main);
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
